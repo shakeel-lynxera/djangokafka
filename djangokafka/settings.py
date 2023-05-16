@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 logger = logging.getLogger(__name__)
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-bd$thkr^&a6)_-wyo#)0sc2c_gt*1q7&+o@)!i+si9a7oc#1c7"
+SECRET_KEY = ""
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -218,8 +218,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
-EMAIL_HOST = "smtpout.asia.secureserver.net"
-EMAIL_HOST_USER = "support1@hypernymbiz.com"
-EMAIL_HOST_PASSWORD = "hypernymbiz123"
+EMAIL_HOST = ""
+EMAIL_HOST_USER = ""
+EMAIL_HOST_PASSWORD = ""
 EMAIL_PORT = 25
 EMAIL_USE_TLS = False
